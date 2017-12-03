@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3d5d41284966dde4c854518aa1b93247
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shooter: {instanceID: 0}
+  - Popup: {fileID: 400000, guid: 9c111e09ea654e9429b035717a79ad23, type: 2}
+  - hitEffect: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

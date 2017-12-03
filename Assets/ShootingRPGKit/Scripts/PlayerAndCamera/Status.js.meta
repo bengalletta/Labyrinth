@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 1cab0e8f20a13a34c8fbdf941cb4d2e5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mainModel: {instanceID: 0}
+  - deathPrefab: {instanceID: 0}
+  - hurt: {instanceID: 0}
+  - poisonEffect: {fileID: 100000, guid: 2cc16f137f949a349bf4262ecef76656, type: 2}
+  - silenceEffect: {fileID: 100000, guid: 1ca999fe72907ee4eaf71c1e325f1d9a, type: 2}
+  - stunEffect: {fileID: 100000, guid: 3c1d8a53e9c94e14b8fee837dc0a6dbf, type: 2}
+  - webbedUpEffect: {fileID: 100000, guid: 67f6fc13c9edc93448e94e7d40da1395, type: 2}
+  - stunAnimation: {instanceID: 0}
+  - webbedUpAnimation: {instanceID: 0}
+  - hurtVoice: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

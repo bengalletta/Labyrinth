@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 28a693768ac9adc45b4e8e15e4731908
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - border: {fileID: 2800000, guid: b1ed6abd7c9c3f64ba70d7d1fdf09c08, type: 3}
+  - hpBar: {fileID: 2800000, guid: c7eada17cb79e6f4482c338156d13893, type: 3}
+  - shieldBar: {fileID: 2800000, guid: 71233ad7e7c245e499a1624d7162badd, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

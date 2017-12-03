@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ffde032e1ec07747ac136dc8b5697f9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - button: {fileID: 2800000, guid: ccccb81468495de4e9bbeef092cd3a8c, type: 3}
+  - hitEffect: {fileID: 100000, guid: 08038f05d197bbf4faaca2edc84b959a, type: 2}
+  - popup: {fileID: 400000, guid: 9c111e09ea654e9429b035717a79ad23, type: 2}
+  - playerAnimation: {instanceID: 0}
+  - enemyAnimation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

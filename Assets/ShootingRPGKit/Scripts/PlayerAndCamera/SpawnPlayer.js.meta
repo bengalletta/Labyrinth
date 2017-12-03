@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 799eb96ef37109948aa892d36984cc55
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerPrefab: {fileID: 100038, guid: 7ea52c55dbc50ce4ca009a1a1a27d417, type: 2}
+  - characterDatabase: {fileID: 100000, guid: 129f8ab27fee723428affe6ed77ed0a6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

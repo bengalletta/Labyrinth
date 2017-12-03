@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b4083541390ec11468eb773177523cec
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - staminaGauge: {fileID: 2800000, guid: cfbfad5fac8509848908c30769ae9398, type: 3}
+  - staminaBorder: {fileID: 2800000, guid: 4c6f025cd3625834e8fb3dd06dc9c1c5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

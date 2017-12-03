@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f34a3c88c58cf114696d9b4a78071337
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - braveIcon: {fileID: 2800000, guid: 1c5ae908cb82cdf4bb50563a2761be38, type: 3}
+  - barrierIcon: {fileID: 2800000, guid: 5c540dd5338f795498740b70d08f28c9, type: 3}
+  - faithIcon: {fileID: 2800000, guid: ad01563a022d7784794cc48f9e0da4c4, type: 3}
+  - magicBarrierIcon: {fileID: 2800000, guid: 897e7f16cb46d5646bbb08f6e6685eec, type: 3}
+  - sharpIcon: {fileID: 2800000, guid: b446cf1332d856c499c818bcec46c9a8, type: 3}
+  - skin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

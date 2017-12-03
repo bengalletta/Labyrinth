@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 37c312c0398bcf047a2611a78b38c34a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - button: {fileID: 2800000, guid: 02e733eed61c44c4a9afb86a637da799, type: 3}
+  - database: {fileID: 100000, guid: c44f95a08df3f6649a032207253abc03, type: 2}
+  - skin1: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

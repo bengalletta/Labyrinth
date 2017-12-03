@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b825b2561ac145c43bb828e86cf31de1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tip: {fileID: 2800000, guid: 0cb71bb5d088d244eb5e2e14a88a92da, type: 3}
+  - characterDatabase: {fileID: 100000, guid: 129f8ab27fee723428affe6ed77ed0a6, type: 2}
+  - modelPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

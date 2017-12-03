@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 39875eaa0f81bc14e961147de038873b
+timeCreated: 1496411289
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - eventSystemPrefab: {fileID: 131536, guid: 2bb4c9fd839fa9446be4cf541f946a73, type: 2}
+  - healthBarPrefab: {fileID: 102892, guid: 383d166064c412c45b21a61553ec5607, type: 2}
+  - statusWindowPrefab: {fileID: 156052, guid: 749fa4da8c10f9b4398e948b7d1e37a5, type: 2}
+  - skillWindowPrefab: {fileID: 189074, guid: ea9f6ad46041ae84d86629bf8db5ef29, type: 2}
+  - inventoryPrefab: {fileID: 127240, guid: 3f133e8059e0f9a448372e1fdbefb459, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
