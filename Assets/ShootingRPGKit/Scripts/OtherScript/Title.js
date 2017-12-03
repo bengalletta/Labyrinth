@@ -14,6 +14,7 @@ private var charSelect : int = 0;
 private var maxChar : int = 1;
 private var charData : CharacterData;
 private var showingModel : GameObject;
+private var goScene : String = "Labyrinth";
 
 function Start () {
 	Screen.lockCursor = false;
@@ -29,6 +30,7 @@ function OnGUI () {
 	//Menu
 		if (GUI.Button (Rect (Screen.width - 420,160 ,280 ,100), "Start Game")) {
 			//page = 2;
+			Application.LoadLevel(goScene);
 		}
 		if (GUI.Button (Rect (Screen.width - 420,280 ,280 ,100), "Load Game")) {
 			//Check for previous Save Data
@@ -36,6 +38,10 @@ function OnGUI () {
 		}
 		if (GUI.Button (Rect (Screen.width - 420,400 ,280 ,100), "How to Play")) {
 			page = 1;
+		}
+
+		if (GUI.Button (Rect (Screen.width - 420, 520 ,280 ,100), "Exit Game")) {
+			Application.Quit();
 		}
 	}
 	
