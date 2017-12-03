@@ -1,10 +1,10 @@
 ﻿#pragma strict
-var returnToScene : String = "Base";
+var returnToScene : String = "MainMenu";
 private var show : boolean  = false;
 var characterDatabase : GameObject;
 private var charId : int = 0;
 private var player : CharacterData;
-private var goScene : String = "Base";
+private var goScene : String = "MainMenu";
 
 function Start () {
 	Screen.lockCursor = false;
