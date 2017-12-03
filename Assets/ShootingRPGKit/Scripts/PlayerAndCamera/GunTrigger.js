@@ -150,10 +150,10 @@ function Start(){
 
 function Update(){
 	//Release Zoom
-    if(onAiming && Input.GetButtonUp("Fire2")){
-       	GetComponent.<Camera>().main.fieldOfView = 60;
-       	onAiming = false;
-    }
+//    if(onAiming && Input.GetButtonUp("Fire2")){
+//       	GetComponent.<Camera>().main.fieldOfView = 60;
+//       	onAiming = false;
+//    }
 	if(stat.freeze || Time.timeScale == 0.0 || freeze){
 		return;
 	}
@@ -206,10 +206,10 @@ function Update(){
 	}
 	
 	//Zoom
-	if(Input.GetButton("Fire2")){
-       	GetComponent.<Camera>().main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, zoomLevel, Time.deltaTime * 8);
-       	onAiming = true;
-    }
+//	if(Input.GetButton("Fire2")){
+//       	GetComponent.<Camera>().main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, zoomLevel, Time.deltaTime * 8);
+//       	onAiming = true;
+//    }
 		
 	//Magic
 	if(Input.GetKeyDown("1") && !attacking && skill[0].skillPrefab){
@@ -226,7 +226,8 @@ function Update(){
 	}
 	
 	//Switch Weapon
-	if (Input.GetKeyDown("q") && Time.time > nextFire && !reloading) {
+	//if (Input.GetKeyDown("q") && Time.time > nextFire && !reloading) {
+	if (Input.GetButtonDown("Fire2") && Time.time > nextFire && !reloading && !attacking) {
 		SwapWeapon();
 	}
     

@@ -62,10 +62,11 @@ function OnGUI(){
 		if (GUI.Button (Rect (Screen.width / 2 - 110,405,220,100), "Quit Game")) {
 			//var cam : GameObject = GameObject.FindWithTag ("MainCamera");
 			//Destroy(cam);
-			//Destroy(player);
+			Destroy(player);
 			//Time.timeScale = 1.0;
-			//Application.LoadLevel ("Title");
-			Application.Quit();
+			Application.LoadLevel ("MainMenu");
+			OnOffMenu();
+			//Application.Quit();
 		}
 		
 		if (GUI.Button (Rect (Screen.width / 2 + 110,195,60,60), "X")) {
