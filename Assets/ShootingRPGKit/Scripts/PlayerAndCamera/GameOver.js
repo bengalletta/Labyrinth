@@ -6,7 +6,12 @@ private var charId : int = 0;
 private var player : CharacterData;
 private var goScene : String = "MainMenu";
 
-function Start () {
+function Start() {
+//	var audio: AudioSource = GetComponent.<AudioSourc>();
+//	audio.Play();
+//	audio.Play(44100);
+
+
 	Screen.lockCursor = false;
 	if(characterDatabase)
 		player = characterDatabase.GetComponent(CharacterData);
