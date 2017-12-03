@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShootingRPGKit/Scenes/Title.unity
+- path: Assets/ShootingRPGKit/Scenes/Boss.unity
   isLoaded: 1
   isActive: 1
