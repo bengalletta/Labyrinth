@@ -9,7 +9,7 @@ private var mainModel : GameObject;
 var useMecanim : boolean = false;
 var animator : Animator; //For Mecanim
 var followTarget : Transform;
-var approachDistance  : float = 3.0f;
+var approachDistance  : float = 50.0f;
 var detectRange : float = 15.0f;
 var lostSight : float = 100.0f;
 var speed  : float = 4.0f;
