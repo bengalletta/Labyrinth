@@ -18,7 +18,7 @@ public class AIfriend : MonoBehaviour {
 	public AnimationClip idleAnimation;
 	public AnimationClip[] attackAnimation = new AnimationClip[1];
 	public AnimationClip hurtAnimation;
-	
+
 	private bool  flinch = false;
 	public bool stability = false;
 

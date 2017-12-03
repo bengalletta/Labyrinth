@@ -80,7 +80,8 @@ public class SpawnPlayer : MonoBehaviour {
 		respawn.GetComponent<Status>().statusPoint = PlayerPrefs.GetInt("PlayerSTP" +saveSlot.ToString());
 		respawn.GetComponent<Status>().maxShield = PlayerPrefs.GetInt("PlayerMaxShield" +saveSlot.ToString());
 		respawn.GetComponent<Status>().melee = PlayerPrefs.GetInt("PlayerMelee" +saveSlot.ToString());
-		
+
+
 		//-------------------------------
 		respawn.GetComponent<Inventory>().cash = PlayerPrefs.GetInt("Cash" +saveSlot.ToString());
 		int itemSize = respawn.GetComponent<Inventory>().itemSlot.Length;

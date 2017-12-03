@@ -5,6 +5,7 @@ private enum AIStatef { Moving = 0, Pausing = 1 , Escape = 2 , Idle = 3, FollowM
 var master : Transform;
 
 private var mainModel : GameObject;
+//private var player : Transform = player.Find("SerinVanguard(Clone)");
 var useMecanim : boolean = false;
 var animator : Animator; //For Mecanim
 var followTarget : Transform;
@@ -57,12 +58,12 @@ var rotateSpeed : float = 4.0; // Use with Path Finding*/
 
 function Start () {
 	gameObject.tag = "Ally"; 
-	mainModel = GetComponent(Status).mainModel;
+		mainModel = GetComponent(Status).mainModel;
 	if(!mainModel){
 		mainModel = this.gameObject;
 	}
 	if(!master){
-		print("Please Assign It's Master first");
+//	master = player;
 	}
 	
 	if(!attackPoint){
