@@ -64,7 +64,7 @@ function OnGUI(){
 			//Destroy(cam);
 			Destroy(player);
 			//Time.timeScale = 1.0;
-			Application.LoadLevel ("MainMenu");
+			Application.LoadLevel ("Base");
 			OnOffMenu();
 			//Application.Quit();
 		}

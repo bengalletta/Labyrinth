@@ -38,10 +38,10 @@ function Update () {
 function OnGUI(){
 	if(show){
 		if(showPicture)
-			GUI.DrawTexture(Rect(Screen.width - 310, Screen.height /2 - 150, 250, 250), showPicture);
+			//GUI.DrawTexture(Rect(Screen.width - 310, Screen.height /2 - 150, 250, 250), showPicture);
 		
 		GUI.skin = skin;
-		GUI.Box(new Rect(Screen.width - 330, Screen.height /2 + 110 ,300,40), showText);
+		GUI.Box(new Rect(Screen.width/2 , Screen.height /2 + 110 ,300,40), showText);
 	}
 }
 

@@ -133,11 +133,11 @@ function LoadTempData(){
 			}
 			respawn.GetComponent(SkillWindow).AssignAllSkill();
 		//---------------Set Target to Minimap--------------
-  		var minimap : GameObject = GameObject.FindWithTag("Minimap");
-  		if(minimap){
-  			var mapcam : GameObject = minimap.GetComponent(MinimapOnOff).minimapCam;
-  			mapcam.GetComponent(MinimapCamera).target = respawn.transform;
-  		}
+//  		var minimap : GameObject = GameObject.FindWithTag("Minimap");
+//  		if(minimap){
+//  			var mapcam : GameObject = minimap.GetComponent(MinimapOnOff).minimapCam;
+//  			mapcam.GetComponent(MinimapCamera).target = respawn.transform;
+//  		}
   		//Load Ammo
 		respawn.GetComponent(GunTrigger).allAmmo.handgunAmmo = PlayerPrefs.GetInt("HandgunAmmo" +saveSlot.ToString());
 		respawn.GetComponent(GunTrigger).allAmmo.machinegunAmmo = PlayerPrefs.GetInt("MachinegunAmmo" +saveSlot.ToString());
