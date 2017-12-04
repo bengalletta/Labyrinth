@@ -8,20 +8,20 @@ private var mainCam : Transform;
 private var saveSlot : int = 0;
 
 function Start () {
-	if(!player){
-    	player = GameObject.FindWithTag ("Player");
-    }
-    saveSlot = PlayerPrefs.GetInt("SaveSlot");
-    GetComponent(Status).characterName = PlayerPrefs.GetString("Name" +saveSlot.ToString());
-    //If PlayerPrefs Loadgame = 10 That mean You Start with Load Game Menu.
-	//If You Set Autoload = true It will LoadGame when you start.
-     if(PlayerPrefs.GetInt("Loadgame") == 10 || autoLoad){
-   		 LoadGame();
-   		 if(!autoLoad){
-   			 //If You didn't Set autoLoad then reset PlayerPrefs Loadgame to 0 after LoadGame.
-   		 	PlayerPrefs.SetInt("Loadgame", 0);
-   		 }
-    }
+//	if(!player){
+//    	player = GameObject.FindWithTag ("Player");
+//    }
+//    saveSlot = PlayerPrefs.GetInt("SaveSlot");
+//    GetComponent(Status).characterName = PlayerPrefs.GetString("Name" +saveSlot.ToString());
+//    //If PlayerPrefs Loadgame = 10 That mean You Start with Load Game Menu.
+//	//If You Set Autoload = true It will LoadGame when you start.
+//     if(PlayerPrefs.GetInt("Loadgame") == 10 || autoLoad){
+//   		 LoadGame();
+//   		 if(!autoLoad){
+//   			 //If You didn't Set autoLoad then reset PlayerPrefs Loadgame to 0 after LoadGame.
+//   		 	PlayerPrefs.SetInt("Loadgame", 0);
+//   		 }
+//    }
 
 }
 
