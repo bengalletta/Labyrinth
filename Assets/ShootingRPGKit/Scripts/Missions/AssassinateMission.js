@@ -26,7 +26,7 @@ function MissionClear(){
 	var player : GameObject = GameObject.FindWithTag("Player");
 	player.GetComponent(Inventory).cash += rewardCash;
 	
-	var saveSlot : int = PlayerPrefs.GetInt("SaveSlot");
+	//var saveSlot : int = PlayerPrefs.GetInt("SaveSlot");
 //	var currentUnlock : int = PlayerPrefs.GetInt("MissionUnlock" +saveSlot.ToString());
 //	if(currentUnlock <= missionUnlock){
 //		PlayerPrefs.SetInt("MissionUnlock" +saveSlot.ToString(), missionUnlock);
