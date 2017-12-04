@@ -34,8 +34,8 @@ public class AIfriend : MonoBehaviour {
 	public float continueAttackDelay = 0.8f;
 	
 	private AIStatef followState;
-	private float distance = 0.0f;
-	private float masterDistance = 0.0f;
+	private float distance = 30.0f;
+	private float masterDistance = 30.0f;
 	private int atk = 0;
 	private int mag = 0;
 	
