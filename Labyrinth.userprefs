@@ -1,0 +1,47 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ShootingRPGKit/Scripts/Events/Operator.js">
+    <Files>
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/AIenemy.js" Line="403" Column="9" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/DetectCollider.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/MonsterSkill.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/PatrollingNPC.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/RespawnMonster.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/StealthKillArea.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/WaveInstantiateBasic.js" Line="59" Column="20" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/EnemyScript/WeakPoint.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/Events/BossTrigger.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/Events/UnlockMonsterGuard.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/OtherScript/SpawnPartner.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/OtherScript/DontDestroyOnload.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/OtherScript/DontDestroyOnload.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/OtherScript/Title.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/OtherScript/AllyHealthBar.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/OtherScript/EnemyAttractRadius.js" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/OtherScript/SpawnPartner.cs" Line="27" Column="2" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/OtherScript/AIfriend.cs" Line="62" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/SpawnPlayer.cs" Line="83" Column="3" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/Status.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/EnemyScript/AIenemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" Line="40" Column="40" />
+      <File FileName="Assets/ShootingRPGKit/Scripts/Events/Operator.js" Line="2" Column="52" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/DatabaseScript/CharacterData.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/DatabaseScript/ItemData.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/CanvasUI/UiMasterC.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/CanvasUI/StatusWindowCanvasC.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/OtherScript/Title.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/PlayerLegacyAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/PlayerMecanimAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/RotateSpine.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/MiniMap/MinimapCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/MiniMap/MinimapOnOff.cs" Line="13" Column="3" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/CharacterMotorC.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/StatusWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets/ShootingRPGKit/CsharpExample/ScriptCS/PlayerAndCamera/UpperBodyAnimationMix.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
