@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ShootingRPGKit/Scenes/Labyrinth.unity
+- path: Assets/ShootingRPGKit/Scenes/Base.unity
   isLoaded: 1
   isActive: 1
