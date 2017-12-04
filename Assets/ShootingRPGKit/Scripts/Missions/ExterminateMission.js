@@ -5,7 +5,7 @@ var enemyTag : String = "Enemy";
 var fontStyle : GUIStyle;
 private var finish : boolean = false;
 var completeSendMessage : String = "MissionClear";
-var baseScene : String = "Base";
+var baseScene : String = "Boss";
 var rewardCash : int = 1000;
 var missionUnlock : int = 1;
 

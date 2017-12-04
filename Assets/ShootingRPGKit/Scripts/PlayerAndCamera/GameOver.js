@@ -1,10 +1,12 @@
 ﻿#pragma strict
-var returnToScene : String = "MainMenu";
+var returnToScene : String = "Base";
 private var show : boolean  = false;
 var characterDatabase : GameObject;
 private var charId : int = 0;
 private var player : CharacterData;
-private var goScene : String = "MainMenu";
+private var goScene : String = "Base";
+//private var menu : boolean = false;
+
 
 function Start() {
 //	var audio: AudioSource = GetComponent.<AudioSourc>();
@@ -20,6 +22,19 @@ function Start() {
 	show = true;
 }
 
+//function OnOffMenu(){
+//	//Freeze Time Scale to 0 if Window is Showing
+//	if(!menu && Time.timeScale != 0.0){
+//			menu = true;
+//			Time.timeScale = 0.0;
+//			Screen.lockCursor = false;
+//	}else if(menu){
+//			menu = false;
+//			Time.timeScale = 1.0;
+//			Screen.lockCursor = true;
+//	}
+//}
+
 function OnGUI () {
 	if(show){
 		if (GUI.Button (Rect (Screen.width /2 -110 , Screen.height /2 - 40,220,60), "Retry")) {
@@ -31,12 +46,14 @@ function OnGUI () {
 	        }
 	    }
 	    if (GUI.Button (Rect (Screen.width /2 -110 , Screen.height /2 + 30,220,60), "Abort Mission")) {
-	        if(player){
-	        	goScene = returnToScene;
-				LoadTempData();
-			}else{
+//	        if(player){
+//	        	goScene = returnToScene;
+	        	Destroy(player);
+//				//OnOffMenu();
+//				LoadTempData();
+//			}else{
 	        	Application.LoadLevel(returnToScene);
-	        }
+//	        }
 	    }
     }
 }
